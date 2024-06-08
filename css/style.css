@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0b0c0c;
+    color: grey;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav__list li {
+    display: inline-block;
+}
+
+.nav__list li a {
+    color: blanchedalmond;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    margin: 10px;
+}
+
+h2 {
+    color: lightgray;
+}
+
+.store__text {
+    color: darkgray;
+    text-align: center;
+    font-size: smaller;
+}
+
+.store__text a {
+    font-size: medium;
+    border-radius: 5px 5px 0px 5px;
+    background-color: purple;
+    color: black;
+}
+
+.order,
+.comment,
+.message,
+form,
+.button, .tag2 {
+    text-align: center;
+}
+
+label {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    color: blanchedalmond;
+}
+
+footer a {
+    color: blanchedalmond;
+    padding: 5px;
+}
+
+.tag1 {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.img_box_index {
+    width: 300px;
+    margin: 0;
+}
+
+.img_box_store,
+.img_box_soporte,
+.img_box_experiencias {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 50%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+form,
+.button {
+    text-align: center;
+    padding: 5px;
+}
+
+form label {
+    display: block;
+}
+
+.text1,
+.text2,
+.text3 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.soporte_container, .order_block {
+    text-align: left;
+    padding: 10px;
+}
+
+.experiencias__container {
+    text-align: center;
+    padding: 10px;
+}
+
+.grid_container_index {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid_container_index a {
+    font-size: medium;
+    border-radius: 5px 5px 0px 5px;
+    background-color: purple;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .grid_container_index {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        text-align: right;
+        grid-template-areas:
+            "img1 text1"
+            "img2 text2"
+            "img3 text3";
+    }
+
+    .img_box_index {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .text1,
+    .text2,
+    .text3 {
+        text-align: left;
+        margin-right: 200px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+    .img1,
+    .img2,
+    .img3 {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .store__text {
+        font-size: medium;
+    }
+}
+
+@media (min-width: 1024px) {
+    .store__text {
+        font-size: large;
+    }
+}
