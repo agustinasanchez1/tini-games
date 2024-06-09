@@ -136,6 +136,14 @@ form,
     padding: 10px;
 }
 
+
+/* contacto */
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* específicos */
 
 .order,
