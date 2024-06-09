@@ -17,6 +17,7 @@ body {
 
 nav {
     text-align: center;
+    background-color: purple;
 }
 
 .nav__list li {
@@ -51,6 +52,7 @@ label {
 footer {
     text-align: center;
     color: blanchedalmond;
+    background-color: purple;
 }
 
 footer a {
@@ -71,8 +73,8 @@ form,
 /* index */
 
 .img__box__index {
-    width: 300px;
-    margin: 0;
+   max-width: 100%;
+   height: auto;
 }
 
 .grid__container__index {
@@ -86,6 +88,14 @@ form,
     border-radius: 5px 5px 0px 5px;
     background-color: purple;
     color: black;
+}
+
+.text1,
+.text2,
+.text3 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
 /* tienda */
@@ -142,14 +152,6 @@ form,
     margin-right: auto;
 }
 
-.text1,
-.text2,
-.text3 {
-    text-align: center;
-    margin: 0;
-    padding: 10px;
-}
-
 /* responsive */
 
 @media (min-width: 768px) {
@@ -165,11 +167,6 @@ form,
             "img3 text3";
     }
 
-    .img__box__index {
-        text-align: center;
-        padding: 5px;
-    }
-
     .text1,
     .text2,
     .text3 {
@@ -179,16 +176,6 @@ form,
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
-
-    .img1,
-    .img2,
-    .img3 {
-        height: 200px;
-        width: 200px;
-        position: relative;
-        margin: 0 auto;
-    }
-
     .store__text {
         font-size: medium;
     }
