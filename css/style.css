@@ -16,8 +16,16 @@ body {
 }
 
 nav {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
     background-color: purple;
+}
+
+.logo img {
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .nav__list li {
@@ -31,7 +39,7 @@ nav {
 
 h1 {
     text-align: center;
-    color: red;
+    color: blue;
     margin: 10px;
 }
 
