@@ -1,0 +1,13 @@
+$color: purple;
+
+@if $color {
+    footer {
+        color: blanchedalmond;
+    }
+}
+
+@else {
+    footer {
+        color: grey;
+    }
+}
