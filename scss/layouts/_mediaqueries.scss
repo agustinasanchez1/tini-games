@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+    .grid__container__index {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        text-align: right;
+        grid-template-areas:
+            "img1 text1"
+            "img2 text2"
+            "img3 text3";
+    }
+
+    .text1,
+    .text2,
+    .text3 {
+        text-align: left;
+        margin-right: 200px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .store__text {
+        font-size: medium;
+    }
+}
+
+@media (min-width: 1024px) {
+    .store__text {
+        font-size: large;
+    }
+}

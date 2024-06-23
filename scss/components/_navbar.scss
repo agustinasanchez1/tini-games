@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: $color-nav-footer;
+}
+
+.nav__list li {
+    display: inline-block;
+
+    a {
+        color: $color-text-secondary;
+        padding: 10px;
+    }
+}

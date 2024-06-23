@@ -53,10 +53,6 @@ img {
     padding: 5px;
 }
 
-label {
-    padding: 10px;
-}
-
 footer {
     text-align: center;
     color: blanchedalmond;
@@ -70,6 +66,8 @@ footer a {
 
 form label {
     display: block;
+    padding: 10px;
+
 }
 
 form,
@@ -149,8 +147,6 @@ form,
 .order,
 .comment,
 .message,
-form,
-.button,
 .tag2 {
     text-align: center;
 }

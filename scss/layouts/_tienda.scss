@@ -1,0 +1,12 @@
+.store__text {
+    color: $color-text-store-secondary;
+    text-align: center;
+    font-size: smaller;
+
+    a {
+        font-size: medium;
+        border-radius: 5px 5px 0px 5px;
+        background-color: $color-nav-footer;
+        color: $color-text-store-primary;
+    }
+}

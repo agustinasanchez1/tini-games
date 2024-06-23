@@ -1,0 +1,15 @@
+body {
+    font-family: $font-family;
+    background-color: $color-primary;
+    color: $color-text;
+}
+
+h1 {
+    text-align: center;
+    color: $color-text-title;
+    margin: 10px;
+}
+
+h2 {
+    color: $color-text-tertiary;
+}

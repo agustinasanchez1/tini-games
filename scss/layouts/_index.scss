@@ -1,0 +1,25 @@
+.img__box__index {
+    max-width: $max-img-width;
+    height: auto;
+}
+
+.grid__container__index {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    a {
+        font-size: medium;
+        border-radius: 5px 5px 0px 5px;
+        background-color: $color-nav-footer;
+        color: $color-text-store-primary;
+    }
+}
+
+.text1,
+.text2,
+.text3 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
